@@ -1,0 +1,82 @@
+[debug] [2023-05-28T02:17:36.485Z] ----------------------------------------------------------------------
+[debug] [2023-05-28T02:17:36.488Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-28T02:17:36.489Z] CLI Version:   12.2.1
+[debug] [2023-05-28T02:17:36.490Z] Platform:      win32
+[debug] [2023-05-28T02:17:36.490Z] Node Version:  v18.15.0
+[debug] [2023-05-28T02:17:36.493Z] Time:          Sun May 28 2023 07:47:36 GMT+0530 (India Standard Time)
+[debug] [2023-05-28T02:17:36.493Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-28T02:17:36.650Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-28T02:17:36.651Z] > authorizing via signed-in user (deepakkumar8826392364@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Lenovo\OneDrive\Desktop\firebase
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-28T02:17:47.039Z] Using project from CLI flag: connectus-social-media
+[debug] [2023-05-28T02:17:47.043Z] > refreshing access token with scopes: []
+[debug] [2023-05-28T02:17:47.048Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-28T02:17:47.048Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-28T02:17:47.562Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-05-28T02:17:47.562Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-28T02:17:47.605Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/connectus-social-media [none]
+[debug] [2023-05-28T02:17:48.321Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/connectus-social-media 200
+[debug] [2023-05-28T02:17:48.322Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/connectus-social-media {"projectId":"connectus-social-media","projectNumber":"453837606103","displayName":"Connectus-social-media","name":"projects/connectus-social-media","resources":{"hostingSite":"connectus-social-media"},"state":"ACTIVE","etag":"1_d41557e1-5b95-42dd-b126-5b7835b9111b"}
+[info] i  Using project connectus-social-media (Connectus-social-media) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] i  Skipping write of public/404.html 
+[debug] [2023-05-28T02:18:45.730Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-05-28T02:18:46.186Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-05-28T02:18:46.186Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.22.1","browserURL":"https://www.gstatic.com/firebasejs/9.22.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.22.1/firebase.tgz"},"live":{"version":"9.22","browserURL":"https://www.gstatic.com/firebasejs/live/9.22/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.22/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.22.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.22.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.22.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.22.1/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.22.1/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.22.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.22.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.22.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.22.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.22.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.22.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.22.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.22.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.22.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.22.1/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\Lenovo\OneDrive\Desktop\firebase is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=37075846&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-05-28T02:18:48.189Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-05-28T02:18:48.189Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-05-28T02:18:48.661Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-05-28T02:18:48.661Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-05-28T02:18:48.672Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-05-28T02:18:49.351Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-05-28T02:18:49.352Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"d339akkumar","id":129528033,"node_id":"U_kgDOB7hw4Q","avatar_url":"https://avatars.githubusercontent.com/u/129528033?v=4","gravatar_id":"","url":"https://api.github.com/users/d339akkumar","html_url":"https://github.com/d339akkumar","followers_url":"https://api.github.com/users/d339akkumar/followers","following_url":"https://api.github.com/users/d339akkumar/following{/other_user}","gists_url":"https://api.github.com/users/d339akkumar/gists{/gist_id}","starred_url":"https://api.github.com/users/d339akkumar/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/d339akkumar/subscriptions","organizations_url":"https://api.github.com/users/d339akkumar/orgs","repos_url":"https://api.github.com/users/d339akkumar/repos","events_url":"https://api.github.com/users/d339akkumar/events{/privacy}","received_events_url":"https://api.github.com/users/d339akkumar/received_events","type":"User","site_admin":false,"name":"Deepak Kumar","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":"Currently an IT student.","twitter_username":null,"public_repos":1,"public_gists":0,"followers":0,"following":0,"created_at":"2023-03-31T14:36:39Z","updated_at":"2023-05-27T17:17:04Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":235,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as d339akkumar 
+[info] 
+[debug] [2023-05-28T02:21:11.552Z] >>> [apiv2][query] GET https://api.github.com/repos/d339akkumar/firebase/actions/secrets/public-key type=owner
+[debug] [2023-05-28T02:21:12.196Z] <<< [apiv2][status] GET https://api.github.com/repos/d339akkumar/firebase/actions/secrets/public-key 404
+[debug] [2023-05-28T02:21:12.196Z] <<< [apiv2][body] GET https://api.github.com/repos/d339akkumar/firebase/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 

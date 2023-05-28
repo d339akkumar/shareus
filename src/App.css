@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 125px;
+  background-color : #11122b;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar > .links {
+  
+  text-align: center;
+  margin-right: 70px;
+  row-gap: 50px;
+  color :aliceblue;
+  
+}
+.navbar > .links a{
+  font-size: 25px;
+  width: 70px;
+  color :azure;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-decoration: none;
+  transition: 1s;
+  
+}
+.navbar > .links a:hover{
+  color: #cea135;
+  letter-spacing: 2px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+}
+.user p{
+  font-size: 20px;
+  text-align: center;
+
+  margin-right: 50px;
+  margin-top: 15px;
+  color: whitesmoke;
+}
+.user img {
+  font-size: 20px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+button {
+  background-color: #cea135;
+  width: 150px;
+  border-radius: 2px;
+  height: 30px;
+  border: 0;
+}
+.userInfo > button{
+  background-color: #cea135;
+  width: 150px;
+  border-radius: 2px;
+  height: 30px;
+  border: 0;
+}
+.user > button{
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color: #cea135;
+  width: 80px;
+  border-radius: 2px;
+  height: 30px;
+  border: 0;
+}
+
+input,
+textarea {
+  font-family: "Nunito", sans-serif;
+}
+
+.create-post {
+  width: 100%;
+  height: 45 0px;
+  display: flex;
+  justify-content: center;
+
+}
+form {
+  margin-top: 80px;
+  padding: 45px 30px;
+  width : 400px;
+  border-radius: 7px;
+  background-color: aliceblue;
+  backdrop-filter: blur(5px);
+  background-color: hsl(199, 100%, 50%);
+  overflow: hidden;
+}
+
+input,
+textarea {
+  padding: 10px 13px;
+  margin: 3px 8px 16px 8px;
+  background-color: rgb(250, 250, 248);
+  border: 0px transparent;
+  border-radius: 10px;
+  color: rgb(6, 6, 5);
+  font-size: 20px;
+  z-index: 1;
+}
+
+.submitForm:hover{
+  cursor: pointer;
+}
+
+.footer > button{
+  width: 40px;
+  background-color: aliceblue;
+  color:rgb(6, 6, 5);
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  border: 2px;
+}
+
+.image img{
+  width: 200px;
+}
